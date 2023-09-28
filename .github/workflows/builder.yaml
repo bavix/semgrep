@@ -2,10 +2,10 @@ name: builder
 
 on:
   schedule:
-    - cron: "8 * * * *"
-  push:
-    tags:
-      - "v*.*.*"
+    - cron: "15 * * * *"
+#  push:
+#    tags:
+#      - "v*.*.*"
 
 jobs:
   docker:
