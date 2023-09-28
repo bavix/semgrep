@@ -2,7 +2,7 @@ name: builder
 
 on:
   schedule:
-    - cron: '6 * * * *'
+    - cron: "8 * * * *"
   push:
     tags:
       - "v*.*.*"
