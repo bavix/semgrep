@@ -7,4 +7,6 @@ RUN apk add git && \
 
 FROM returntocorp/semgrep:latest-nonroot
 
+RUN mkdir -m 1777 /__w
+
 COPY --from=rules /tmp/semgrep-go /semgrep-go
